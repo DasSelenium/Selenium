@@ -34,6 +34,5 @@ public class loginpageclass {
 		Thread.sleep(2000);
 		pwd.sendKeys(pass);
 		submit.click();
-
-	}
+}
 }
