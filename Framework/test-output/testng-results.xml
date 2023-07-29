@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-29T20:34:20 IST" name="Default suite" finished-at="2023-07-29T20:34:32 IST" duration-ms="11757">
+    <groups>
+    </groups>
+    <test started-at="2023-07-29T20:34:20 IST" name="Default test" finished-at="2023-07-29T20:34:32 IST" duration-ms="11757">
+      <class name="com.testcases.loginApp">
+        <test-method is-config="true" signature="SuiteSetup()[pri:0, instance:com.testcases.loginApp@33d512c1]" started-at="2023-07-29T20:34:20 IST" name="SuiteSetup" finished-at="2023-07-29T20:34:20 IST" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteSetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.loginApp@33d512c1]" started-at="2023-07-29T20:34:20 IST" name="setup" finished-at="2023-07-29T20:34:27 IST" duration-ms="6187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launchPage()[pri:0, instance:com.testcases.loginApp@33d512c1]" started-at="2023-07-29T20:34:27 IST" name="launchPage" finished-at="2023-07-29T20:34:32 IST" duration-ms="5242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPage -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.testcases.loginApp@33d512c1]" started-at="2023-07-29T20:34:32 IST" name="screenshot" finished-at="2023-07-29T20:34:32 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchPage status=SUCCESS method=loginApp.launchPage()[pri:0, instance:com.testcases.loginApp@33d512c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.testcases.loginApp@33d512c1]" started-at="2023-07-29T20:34:32 IST" name="close" finished-at="2023-07-29T20:34:32 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.testcases.loginApp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
