@@ -8,10 +8,12 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.observer.ExtentObserver;
 import com.aventstack.extentreports.reporter.ExtentReporter;
+import com.beust.jcommander.Parameter;
 import com.utility.Helper;
 import com.utility.browserfactory;
 import com.utility.configDataProvider;
@@ -41,10 +43,12 @@ public class BaseClass {
 	
 
 	}
-
+     @Parameters("browser")
 	@BeforeClass
-	public void setup() {
-		driver = browserfactory.launchapplication(driver, config.getBrowser(), config.getURL());
+	public void setup(String browser) {
+		//driver = browserfactory.launchapplication(driver, config.getBrowser(), config.getURL());
+		
+		driver = browserfactory.launchapplication(driver, browser, config.getURL());
 	}
 
 	@AfterClass
