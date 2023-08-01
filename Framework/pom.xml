@@ -72,6 +72,7 @@
 					</suiteXmlFiles>
 					<systemPropertyVariables>
 						<executionbrowser> ${browser}</executionbrowser>
+						<urltouse> ${url}</urltouse>
 					</systemPropertyVariables>
 
 

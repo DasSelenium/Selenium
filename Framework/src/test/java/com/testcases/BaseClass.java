@@ -43,12 +43,12 @@ public class BaseClass {
 	
 
 	}
-     @Parameters("browser")
+     @Parameters({"browser", "url"})
 	@BeforeClass
-	public void setup(String browser) {
+	public void setup(String browser, String url) {
 		//driver = browserfactory.launchapplication(driver, config.getBrowser(), config.getURL());
 		
-		driver = browserfactory.launchapplication(driver, browser, config.getURL());
+		driver = browserfactory.launchapplication(driver, browser, url);
 	}
 
 	@AfterClass
