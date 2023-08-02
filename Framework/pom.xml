@@ -71,8 +71,8 @@
 						<suiteXmlFile>XML Files/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<systemPropertyVariables>
-						<executionbrowser> ${browser}</executionbrowser>
-						<appUrl> ${urltolaunch}</appUrl>
+						<executionbrowser>${browser}</executionbrowser>
+						<appUrl>${urltolaunch}</appUrl>
 					</systemPropertyVariables>
 
 

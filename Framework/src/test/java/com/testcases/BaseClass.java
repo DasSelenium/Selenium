@@ -43,7 +43,7 @@ public class BaseClass {
 	
 
 	}
-     @Parameters({"browser", "urltolaunch"})
+     @Parameters({"browser", "urltolaunch"})  
 	@BeforeClass
 	public void setup(String browser, String url) {
 		//driver = browserfactory.launchapplication(driver, config.getBrowser(), config.getURL());
