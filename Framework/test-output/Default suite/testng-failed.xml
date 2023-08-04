@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testcases.loginApp">
+      <class name="ChromeSplitScreen">
         <methods>
-          <include name="SuiteSetup"/>
-          <include name="setup"/>
-          <include name="screenshot"/>
-          <include name="launchPage"/>
-          <include name="close"/>
+          <include name="startbrowser"/>
         </methods>
-      </class> <!-- com.testcases.loginApp -->
+      </class> <!-- ChromeSplitScreen -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
